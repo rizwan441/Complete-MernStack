@@ -1,0 +1,32 @@
+:root{
+    --orange-color: #da722c;
+    --dark-blue-color: #023047;
+    --dark-color:#070917;
+    --light-color:#E8F7FB;
+    --light-blue-color:#6F7DFB;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+    color: #E8F7FB;
+          background-color: #070917;
+
+}
+.wrapper{
+    max-width: 100%;
+    margin: 0;
+      /* max-width: 1134px; */
+      background-color: #070917;
+
+}
+.btn{
+    color: var(--dark-blue-color);
+   background-color: var(--light-blue-color);
+    border-radius: 5px;
+    height: 40px;
+    padding: 2px;
+}
